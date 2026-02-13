@@ -3,6 +3,6 @@ public class Program
 {
     public static void Main ()
     {
-        Console. WriteLine("Senai");
+        Console. WriteLine("Senai ");
     }
 }
