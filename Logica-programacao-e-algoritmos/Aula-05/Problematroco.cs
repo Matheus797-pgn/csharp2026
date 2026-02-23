@@ -1,11 +1,12 @@
-double precounitario, quantidade, dinheirorecebido, troco;
-Console.WriteLine("preco dos produtos é");
-precounitario = double.Parse(ReadLine());
+using static System.Console;
+double Precounitario, Quantidade, Dinheirorecebido, troco;
+Console.WriteLine("preco do produto é");
+Precounitario = double.Parse(ReadLine());
 Console.WriteLine("a quantidade é");
-quantidade = double.Parse(ReadLine());
+Quantidade = double.Parse(ReadLine());
 Console.WriteLine("O dinheiro recebido é");
-dinheirorecebido = double.Parse(ReadLine());
+Dinheirorecebido = double.Parse(ReadLine());
 //processamento de dados
-troco = dinheirorecebido-(precounitario*quantidade);
+troco = Dinheirorecebido-(Precounitario*Quantidade);
 // saida de dados
 Console.WriteLine($"o seu troco é {troco}");
