@@ -19,5 +19,5 @@ try{
 }
 catch(Exception)
 {
-    WriteLine("Valores invalidos inseridos,Programa encerrado!");
+    WriteLine("Valores invalidos inseridos, Programa encerrado!");
 }
