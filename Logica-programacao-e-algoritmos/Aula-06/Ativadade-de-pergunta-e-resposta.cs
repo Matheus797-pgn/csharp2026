@@ -1,7 +1,12 @@
 using static System.Console;
+try
+{
 int valor_A, valor_B, valor_C;
+WriteLine("Digite o valor A");
 valor_A = int.Parse(ReadLine());
+WriteLine("Digite o valor B");
 valor_B = int.Parse(ReadLine());
+WriteLine("Digite o valor C");
 valor_C = int.Parse(ReadLine());
 // entrada de dados//
 bool pergunta1 = valor_A == valor_C;
@@ -19,5 +24,10 @@ bool resultado2 = pergunta2 | pergunta4;
 WriteLine($"se a 2 pergunta e 4 pergunta pelo menos uma é verdadeira? {resultado2}");
 bool resultado3 = pergunta1 & pergunta1;
 WriteLine($"se a negação da primeira pergunta é verdadeira {resultado3}");
+}
+catch (Exception)
+{
+    WriteLine("ocorreu um erro, Tente novamente");
+}
 
 
